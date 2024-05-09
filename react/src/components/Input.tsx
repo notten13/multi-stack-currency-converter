@@ -6,6 +6,7 @@ type InputProps = {
   value: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   type?: string;
+  disabled?: boolean;
 };
 
 const Input = ({
@@ -14,6 +15,7 @@ const Input = ({
   value,
   onChange,
   type = 'text',
+  disabled,
   ...props
 }: InputProps) => {
   return (
@@ -25,6 +27,7 @@ const Input = ({
         name={name}
         value={value}
         onChange={onChange}
+        disabled={disabled}
         {...props}
       />
     </div>

@@ -75,7 +75,7 @@ button:focus-visible {
 input {
   background-color: #16183B;
   color: white;
-  padding: 20px;
+  padding: 21px 20px 20px 20px;
   width: 100%;
   border-radius: 5px;
   border: solid 1px #3f4595;
@@ -85,12 +85,13 @@ input {
 .form-group {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  margin-top: 30px;
 }
 
 @media (min-width: 768px) {
   .form-group {
     flex-direction: row;
+    gap: 20px;
   }
 
   .form-group > div {

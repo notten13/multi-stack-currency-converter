@@ -2,10 +2,14 @@
 
 A simple currency converter to test the differences between popular JavaScript frontend frameworks.
 
-- React
+![Screenshot of the app](./screenshot.png)
+
+Done:
+
+- [x] [React](./react)
 
 TODO:
 
-- Svelte
-- Vue
-- Angular
+- [ ] Svelte
+- [ ] Vue
+- [ ] Angular
